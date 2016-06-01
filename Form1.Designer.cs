@@ -44,6 +44,7 @@
             this.wyslij.TabIndex = 1;
             this.wyslij.Text = "Wyślij";
             this.wyslij.UseVisualStyleBackColor = true;
+            this.wyslij.Click += new System.EventHandler(this.wyslij_Click);
             // 
             // textBox1
             // 
@@ -63,6 +64,11 @@
             // numericUpDown1
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(348, 51);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            65535,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown1.TabIndex = 4;
